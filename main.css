@@ -1,0 +1,27 @@
+@font-face {font-family: "Cyberverse Condensed"; src: url("//db.onlinewebfonts.com/t/5c2027c52853bb5415dd9bed358e6dbc.eot"); src: url("//db.onlinewebfonts.com/t/5c2027c52853bb5415dd9bed358e6dbc.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c2027c52853bb5415dd9bed358e6dbc.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c2027c52853bb5415dd9bed358e6dbc.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c2027c52853bb5415dd9bed358e6dbc.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5c2027c52853bb5415dd9bed358e6dbc.svg#Cyberverse Condensed") format("svg"); }
+
+*{
+ box-sizing:border-box ;
+}	
+.wrapper{
+height:100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+  flex-direction:column;
+}
+.clock{
+  font-family: "Cyberverse Condensed";
+  flex-grow:0;
+  padding: 2rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  justify-content: center;
+  background-color: black;
+  color: #17D4FE;
+  text-shadow: 0 0 5px white;
+  box-shadow: 0 0 5px  2px grey;
+  border-radius: 15px;
+  border: 2px double yellow;
+  margin: 4px;
+}
